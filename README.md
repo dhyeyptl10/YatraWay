@@ -15,7 +15,7 @@
 
 ---
 
-[🚀 Explore Live Demo](http://localhost:5173/) • [✨ Features](#-core-features) • [🧠 AI Optimizer](#-gemini-ai-smart-trip-optimizer) • [🏗️ Architecture](#-system-architecture--data-schema) • [📡 API Reference](#-api-endpoints) • [⚙️ Installation](#-getting-started) • [👥 Travel Crew](#-founding-team)
+[🚀 Explore Live Demo](http://localhost:5173/) • [✨ Features](#-core-features) • [🧠 AI Optimizer](#-gemini-ai-smart-trip-optimizer) • [🏗️ Architecture](#-system-architecture--data-schema) • [📡 API Reference](#-api-endpoints) • [⚙️ Installation](#-getting-started)
 
 ---
 
@@ -179,25 +179,8 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ---
 
-## 👥 Founding Team
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <b>Priyank Khatri</b><br/>
-        <sub>Trip Owner • Founder</sub>
-      </td>
-      <td align="center">
-        <b>Dhyey Patel</b><br/>
-        <sub>Chief Explorer • Co-Owner</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 <div align="center">
   <sub>Built with ❤️ for passionate travelers worldwide. GlobeTrotter Hackathon Edition.</sub>
 </div>
+
+
