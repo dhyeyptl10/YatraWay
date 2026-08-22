@@ -66,3 +66,35 @@ Planning a multi-city vacation requires juggling disparate booking portals, calc
 ```
 
 ---
+
+## ✨ Core Features
+
+### 1. 🤖 Gemini AI Smart Trip Optimizer
+- **Intelligent Multi-City Sequencing**: Reorders stop sequences to minimize inter-city transit times by up to 4.2 hours.
+- **Geographic Landmark Clustering**: Clusters morning and afternoon monuments to eliminate backtracking.
+- **Automated Pacing & Savings**: Tailors daily density to your selected pace (Slow, Active, Luxury) with bundled activity cost savings.
+
+### 2. 🗺️ Interactive Multi-City Itinerary Builder
+- **Dynamic City Stops**: Add and reorder stops (*e.g. Paris 4d → Rome 5d → Barcelona 5d*).
+- **Day-Wise Activity Blocks**: Timed slots (`10:00 AM`, `02:00 PM`, `06:30 PM`), category tags (*Culture, Food, Adventure, Sightseeing, Shopping*), and itemized costs in ₹ INR.
+- **Full Activity CRUD**: Add custom activities or remove stops with live automatic recalculation.
+
+### 3. 💰 Automatic Live Budget Calculator
+- **Real-Time Cost Aggregation**: Instant categorization across **🏨 Hotels**, **✈️ Transport**, **🎯 Activities**, and **🍽️ Dining**.
+- **Daily Average Cost Metric**: Computes accurate `₹/day` across multi-city durations.
+- **Budget Variance & Alerts**: Highlights savings or warns if planned expenses exceed target budget.
+
+### 4. 🗓️ Interactive Calendar & Timeline Visualization
+- Monthly calendar grid view mapping multi-city stops.
+- Click any date to view scheduled morning-to-night activity timelines.
+
+### 5. 🧭 Travel Style & Persona Discovery Engine
+- 4-dimensional assessment evaluating Landscape, Pace, Investment Tier, and Companionship.
+- Identifies your **Travel DNA Archetype** (*The High-Altitude Alpine Nomad, The Coastal Sanctuary Seeker, The Royal Heritage Connoisseur, The Holistic Ayurveda Wanderer*).
+- Directly exports matching destinations into `/trips` with 1 click.
+
+### 6. 🔗 Public Trip Sharing & Community Copy
+- Generates unique public URLs (`/trips?share=:id`).
+- **`📋 Copy This Trip to My Journeys`**: Clones and imports full multi-city itineraries into personal accounts with 1 click.
+
+---
