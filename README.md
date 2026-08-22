@@ -15,7 +15,7 @@
 
 ---
 
-[🚀 Explore Live Demo](http://localhost:5173/) • [✨ Features](#-core-features) • [🧠 AI Optimizer](#-gemini-ai-smart-trip-optimizer) • [🏗️ Architecture](#-system-architecture--data-schema) • [📡 API Reference](#-api-endpoints) • [⚙️ Installation](#-getting-started)
+[🚀 Explore Live Demo](https://yatrawayai.vercel.app/) • [✨ Features](#-core-features) • [🧠 AI Optimizer](#-gemini-ai-smart-trip-optimizer) • [🏗️ Architecture](#-system-architecture--data-schema) • [📡 API Reference](#-api-endpoints) • [⚙️ Installation](#-getting-started)
 
 ---
 
