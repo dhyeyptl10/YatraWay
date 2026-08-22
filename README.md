@@ -15,7 +15,7 @@
 
 ---
 
-[🚀 Explore Live Demo](http://localhost:5173/) • [✨ Features](#-core-features) • [🧠 AI Optimizer](#-gemini-ai-smart-trip-optimizer) • [🏗️ Architecture](#-system-architecture) • [📡 API Reference](#-api-endpoints) • [👥 Travel Crew](#-founding-team)
+[🚀 Explore Live Demo](http://localhost:5173/) • [✨ Features](#-core-features) • [🧠 AI Optimizer](#-gemini-ai-smart-trip-optimizer) • [🏗️ Architecture](#-system-architecture--data-schema) • [📡 API Reference](#-api-endpoints) • [⚙️ Installation](#-getting-started) • [👥 Travel Crew](#-founding-team)
 
 ---
 
@@ -141,3 +141,63 @@ ITINERARY_ITEM (Day #, Time Slots, Cost in ₹)
 | `GET` | `/api/emergency/sos` | Instant 24/7 emergency response & local authority directory |
 
 ---
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/dhyeyptl10/YatraWay.git
+cd YatraWay
+```
+
+### 2. Configure Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+*Create a `.env` file in `backend/`:*
+```env
+PORT=5000
+GEMINI_API_KEY=your_google_gemini_api_key
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_service_key
+```
+
+### 3. Configure Frontend
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
+*Create a `.env` file in `frontend/`:*
+```env
+VITE_API_URL=http://localhost:5000/api
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+---
+
+## 👥 Founding Team
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <b>Priyank Khatri</b><br/>
+        <sub>Trip Owner • Founder</sub>
+      </td>
+      <td align="center">
+        <b>Dhyey Patel</b><br/>
+        <sub>Chief Explorer • Co-Owner</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for passionate travelers worldwide. GlobeTrotter Hackathon Edition.</sub>
+</div>
