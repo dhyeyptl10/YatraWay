@@ -98,3 +98,46 @@ Planning a multi-city vacation requires juggling disparate booking portals, calc
 - **`📋 Copy This Trip to My Journeys`**: Clones and imports full multi-city itineraries into personal accounts with 1 click.
 
 ---
+
+## 🏗️ System Architecture & Data Schema
+
+```
+USER
+ │
+ │ 1:N
+ ↓
+TRIP
+ │
+ ├──────────────────────────────┐
+ ↓                              ↓
+TRIP_STOP (Cities & Dates)     EXPENSE (Hotels, Flights, Food)
+ │
+ │ N:1
+ ↓
+CITY
+ │
+ │ 1:N
+ ↓
+ACTIVITY (Culture, Sightseeing, Dining)
+ │
+ ↓
+ITINERARY_ITEM (Day #, Time Slots, Cost in ₹)
+```
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/gemini/optimize-itinerary` | AI smart multi-city optimizer with day-wise budget calculations |
+| `POST` | `/api/gemini/generate-destinations` | Personalized solo & women-safe destination curation |
+| `GET` | `/api/trips` | Fetch all user journeys and itineraries |
+| `POST` | `/api/trips` | Create a new multi-city journey |
+| `PUT` | `/api/trips/:id` | Update itinerary stops, activities, and expenses |
+| `DELETE` | `/api/trips/:id` | Delete journey |
+| `GET` | `/api/bookings` | Fetch confirmed flight, hotel, and logistics vouchers |
+| `POST` | `/api/bookings` | Create confirmed logistics reservation |
+| `GET` | `/api/emergency/sos` | Instant 24/7 emergency response & local authority directory |
+
+---
